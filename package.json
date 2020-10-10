@@ -1,0 +1,41 @@
+{
+  "name": "medapay",
+  "version": "1.0.0",
+  "description": "MedaPay API wrapper",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/360ground/medapay-node.git"
+  },
+  "keywords": [
+    "meda",
+    "medapay",
+    "payment",
+    "processing",
+    "mobile",
+    "wallets",
+    "amole",
+    "cbebirr",
+    "mbirr",
+    "hellocash"
+  ],
+  "author": "360 Ground <dev@360ground.com> (https://360ground.com/)",
+  "contributors": [
+    "Muluneh Awoke <muluneh@360ground.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/360ground/medapay-node/issues"
+  },
+  "homepage": "https://github.com/360ground/medapay-node#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
